@@ -9,3 +9,4 @@ build/
 Q/Q.xcodeproj/xcuserdata/*
 xcuserdata
 xcshareddata
+*.xcworkspace
