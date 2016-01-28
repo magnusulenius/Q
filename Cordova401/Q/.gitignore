@@ -6,6 +6,6 @@ build/
 *.pbxuser
 *.perspective
 *.perspectivev3
-xcuserdata
-xcshareddata
-xcworkspace
+xcuserdata/
+xcshareddata/
+xcworkspace/
