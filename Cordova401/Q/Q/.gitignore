@@ -6,6 +6,6 @@ build/
 *.pbxuser
 *.perspective
 *.perspectivev3
-Q/Q.xcodeproj/xcuserdata/*
 xcuserdata
 xcshareddata
+xcworkspace
