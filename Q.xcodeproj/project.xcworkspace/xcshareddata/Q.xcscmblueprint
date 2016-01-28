@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "31B4DC3E4A85EA92D641CF88875E28F44011B704",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "01B09C7DB170E6215B892FBE349408038EC70DEC" : 0,
+    "31B4DC3E4A85EA92D641CF88875E28F44011B704" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7AA47510-3E5E-4689-9A93-65A0EF979085",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "01B09C7DB170E6215B892FBE349408038EC70DEC" : "",
+    "31B4DC3E4A85EA92D641CF88875E28F44011B704" : "Q\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Q",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Q.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aguelo\/hypernode.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "01B09C7DB170E6215B892FBE349408038EC70DEC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/magnusulenius\/Q",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31B4DC3E4A85EA92D641CF88875E28F44011B704"
+    }
+  ]
+}
