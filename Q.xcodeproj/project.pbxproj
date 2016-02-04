@@ -16,6 +16,9 @@
 		F7442E2C1C6395390040341C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7442E2A1C6395390040341C /* LaunchScreen.storyboard */; };
 		F7442E371C63953A0040341C /* QTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7442E361C63953A0040341C /* QTests.m */; };
 		F7442E421C63953A0040341C /* QUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7442E411C63953A0040341C /* QUITests.m */; };
+		F7442E511C6396E90040341C /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7442E501C6396E90040341C /* Spotify.framework */; };
+		F7442E531C6396F80040341C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7442E521C6396F70040341C /* AVFoundation.framework */; };
+		F7442E551C6397060040341C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7442E541C6397060040341C /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		F7442E3D1C63953A0040341C /* QUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7442E411C63953A0040341C /* QUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QUITests.m; sourceTree = "<group>"; };
 		F7442E431C63953A0040341C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7442E501C6396E90040341C /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		F7442E521C6396F70040341C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F7442E541C6397060040341C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7442E551C6397060040341C /* SystemConfiguration.framework in Frameworks */,
+				F7442E531C6396F80040341C /* AVFoundation.framework in Frameworks */,
+				F7442E511C6396E90040341C /* Spotify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +93,7 @@
 		F7442E0D1C6395390040341C = {
 			isa = PBXGroup;
 			children = (
+				F7442E4F1C6396B30040341C /* Frameworks */,
 				F7442E181C6395390040341C /* Q */,
 				F7442E351C63953A0040341C /* QTests */,
 				F7442E401C63953A0040341C /* QUITests */,
@@ -143,6 +153,16 @@
 				F7442E431C63953A0040341C /* Info.plist */,
 			);
 			path = QUITests;
+			sourceTree = "<group>";
+		};
+		F7442E4F1C6396B30040341C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7442E541C6397060040341C /* SystemConfiguration.framework */,
+				F7442E521C6396F70040341C /* AVFoundation.framework */,
+				F7442E501C6396E90040341C /* Spotify.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,8 +439,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Q/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = JAM.Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -430,8 +455,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Q/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = JAM.Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -504,6 +534,7 @@
 				F7442E481C63953A0040341C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7442E491C63953A0040341C /* Build configuration list for PBXNativeTarget "QTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +543,7 @@
 				F7442E4B1C63953A0040341C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7442E4C1C63953A0040341C /* Build configuration list for PBXNativeTarget "QUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +552,7 @@
 				F7442E4E1C63953A0040341C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
