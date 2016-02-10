@@ -7,80 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F71776131C64B6C80062F967 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71776111C64B30F0062F967 /* Spotify.framework */; };
-		F7442E1B1C6395390040341C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7442E1A1C6395390040341C /* main.m */; };
-		F7442E1E1C6395390040341C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7442E1D1C6395390040341C /* AppDelegate.m */; };
-		F7442E211C6395390040341C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7442E201C6395390040341C /* MasterViewController.m */; };
-		F7442E241C6395390040341C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7442E231C6395390040341C /* DetailViewController.m */; };
-		F7442E271C6395390040341C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7442E251C6395390040341C /* Main.storyboard */; };
-		F7442E291C6395390040341C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7442E281C6395390040341C /* Assets.xcassets */; };
-		F7442E2C1C6395390040341C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7442E2A1C6395390040341C /* LaunchScreen.storyboard */; };
-		F7442E371C63953A0040341C /* QTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7442E361C63953A0040341C /* QTests.m */; };
-		F7442E421C63953A0040341C /* QUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7442E411C63953A0040341C /* QUITests.m */; };
-		F7442E531C6396F80040341C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7442E521C6396F70040341C /* AVFoundation.framework */; };
-		F7442E551C6397060040341C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7442E541C6397060040341C /* SystemConfiguration.framework */; };
+		F7987B131C6A014D004F0407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7987B121C6A014D004F0407 /* AppDelegate.swift */; };
+		F7987B151C6A014D004F0407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7987B141C6A014D004F0407 /* ViewController.swift */; };
+		F7987B181C6A014D004F0407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7987B161C6A014D004F0407 /* Main.storyboard */; };
+		F7987B1A1C6A014D004F0407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7987B191C6A014D004F0407 /* Assets.xcassets */; };
+		F7987B1D1C6A014D004F0407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7987B1B1C6A014D004F0407 /* LaunchScreen.storyboard */; };
+		F7987B281C6A014E004F0407 /* QTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7987B271C6A014E004F0407 /* QTests.swift */; };
+		F7987B331C6A014E004F0407 /* QUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7987B321C6A014E004F0407 /* QUITests.swift */; };
+		F7987B411C6A01B6004F0407 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7987B401C6A01B6004F0407 /* AVFoundation.framework */; };
+		F7987B431C6A01C1004F0407 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7987B421C6A01C1004F0407 /* SystemConfiguration.framework */; };
+		F7987B461C6A0202004F0407 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7987B451C6A0202004F0407 /* Spotify.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F7442E331C63953A0040341C /* PBXContainerItemProxy */ = {
+		F7987B241C6A014E004F0407 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F7442E0E1C6395390040341C /* Project object */;
+			containerPortal = F7987B071C6A014D004F0407 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F7442E151C6395390040341C;
+			remoteGlobalIDString = F7987B0E1C6A014D004F0407;
 			remoteInfo = Q;
 		};
-		F7442E3E1C63953A0040341C /* PBXContainerItemProxy */ = {
+		F7987B2F1C6A014E004F0407 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F7442E0E1C6395390040341C /* Project object */;
+			containerPortal = F7987B071C6A014D004F0407 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F7442E151C6395390040341C;
+			remoteGlobalIDString = F7987B0E1C6A014D004F0407;
 			remoteInfo = Q;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F71776111C64B30F0062F967 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
-		F7442E161C6395390040341C /* Q.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Q.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7442E1A1C6395390040341C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F7442E1C1C6395390040341C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F7442E1D1C6395390040341C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F7442E1F1C6395390040341C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		F7442E201C6395390040341C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		F7442E221C6395390040341C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		F7442E231C6395390040341C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		F7442E261C6395390040341C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F7442E281C6395390040341C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F7442E2B1C6395390040341C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F7442E2D1C6395390040341C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7442E321C63953A0040341C /* QTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7442E361C63953A0040341C /* QTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTests.m; sourceTree = "<group>"; };
-		F7442E381C63953A0040341C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7442E3D1C63953A0040341C /* QUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7442E411C63953A0040341C /* QUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QUITests.m; sourceTree = "<group>"; };
-		F7442E431C63953A0040341C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7442E521C6396F70040341C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		F7442E541C6397060040341C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F7987B0F1C6A014D004F0407 /* Q.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Q.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7987B121C6A014D004F0407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7987B141C6A014D004F0407 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7987B171C6A014D004F0407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7987B191C6A014D004F0407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7987B1C1C6A014D004F0407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7987B1E1C6A014D004F0407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7987B231C6A014E004F0407 /* QTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7987B271C6A014E004F0407 /* QTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTests.swift; sourceTree = "<group>"; };
+		F7987B291C6A014E004F0407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7987B2E1C6A014E004F0407 /* QUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7987B321C6A014E004F0407 /* QUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QUITests.swift; sourceTree = "<group>"; };
+		F7987B341C6A014E004F0407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7987B401C6A01B6004F0407 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F7987B421C6A01C1004F0407 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F7987B451C6A0202004F0407 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		F7987B471C6A04B6004F0407 /* Q-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Q-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F7442E131C6395390040341C /* Frameworks */ = {
+		F7987B0C1C6A014D004F0407 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71776131C64B6C80062F967 /* Spotify.framework in Frameworks */,
-				F7442E531C6396F80040341C /* AVFoundation.framework in Frameworks */,
-				F7442E551C6397060040341C /* SystemConfiguration.framework in Frameworks */,
+				F7987B431C6A01C1004F0407 /* SystemConfiguration.framework in Frameworks */,
+				F7987B461C6A0202004F0407 /* Spotify.framework in Frameworks */,
+				F7987B411C6A01B6004F0407 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7442E2F1C63953A0040341C /* Frameworks */ = {
+		F7987B201C6A014E004F0407 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7442E3A1C63953A0040341C /* Frameworks */ = {
+		F7987B2B1C6A014E004F0407 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,77 +84,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F7442E0D1C6395390040341C = {
+		F7987B061C6A014D004F0407 = {
 			isa = PBXGroup;
 			children = (
-				F7442E4F1C6396B30040341C /* Frameworks */,
-				F7442E181C6395390040341C /* Q */,
-				F7442E351C63953A0040341C /* QTests */,
-				F7442E401C63953A0040341C /* QUITests */,
-				F7442E171C6395390040341C /* Products */,
+				F7987B441C6A01CA004F0407 /* Frameworks */,
+				F7987B111C6A014D004F0407 /* Q */,
+				F7987B261C6A014E004F0407 /* QTests */,
+				F7987B311C6A014E004F0407 /* QUITests */,
+				F7987B101C6A014D004F0407 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F7442E171C6395390040341C /* Products */ = {
+		F7987B101C6A014D004F0407 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7442E161C6395390040341C /* Q.app */,
-				F7442E321C63953A0040341C /* QTests.xctest */,
-				F7442E3D1C63953A0040341C /* QUITests.xctest */,
+				F7987B0F1C6A014D004F0407 /* Q.app */,
+				F7987B231C6A014E004F0407 /* QTests.xctest */,
+				F7987B2E1C6A014E004F0407 /* QUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7442E181C6395390040341C /* Q */ = {
+		F7987B111C6A014D004F0407 /* Q */ = {
 			isa = PBXGroup;
 			children = (
-				F7442E1C1C6395390040341C /* AppDelegate.h */,
-				F7442E1D1C6395390040341C /* AppDelegate.m */,
-				F7442E1F1C6395390040341C /* MasterViewController.h */,
-				F7442E201C6395390040341C /* MasterViewController.m */,
-				F7442E221C6395390040341C /* DetailViewController.h */,
-				F7442E231C6395390040341C /* DetailViewController.m */,
-				F7442E251C6395390040341C /* Main.storyboard */,
-				F7442E281C6395390040341C /* Assets.xcassets */,
-				F7442E2A1C6395390040341C /* LaunchScreen.storyboard */,
-				F7442E2D1C6395390040341C /* Info.plist */,
-				F7442E191C6395390040341C /* Supporting Files */,
+				F7987B121C6A014D004F0407 /* AppDelegate.swift */,
+				F7987B141C6A014D004F0407 /* ViewController.swift */,
+				F7987B161C6A014D004F0407 /* Main.storyboard */,
+				F7987B191C6A014D004F0407 /* Assets.xcassets */,
+				F7987B1B1C6A014D004F0407 /* LaunchScreen.storyboard */,
+				F7987B1E1C6A014D004F0407 /* Info.plist */,
+				F7987B471C6A04B6004F0407 /* Q-Bridging-Header.h */,
 			);
 			path = Q;
 			sourceTree = "<group>";
 		};
-		F7442E191C6395390040341C /* Supporting Files */ = {
+		F7987B261C6A014E004F0407 /* QTests */ = {
 			isa = PBXGroup;
 			children = (
-				F7442E1A1C6395390040341C /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F7442E351C63953A0040341C /* QTests */ = {
-			isa = PBXGroup;
-			children = (
-				F7442E361C63953A0040341C /* QTests.m */,
-				F7442E381C63953A0040341C /* Info.plist */,
+				F7987B271C6A014E004F0407 /* QTests.swift */,
+				F7987B291C6A014E004F0407 /* Info.plist */,
 			);
 			path = QTests;
 			sourceTree = "<group>";
 		};
-		F7442E401C63953A0040341C /* QUITests */ = {
+		F7987B311C6A014E004F0407 /* QUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F7442E411C63953A0040341C /* QUITests.m */,
-				F7442E431C63953A0040341C /* Info.plist */,
+				F7987B321C6A014E004F0407 /* QUITests.swift */,
+				F7987B341C6A014E004F0407 /* Info.plist */,
 			);
 			path = QUITests;
 			sourceTree = "<group>";
 		};
-		F7442E4F1C6396B30040341C /* Frameworks */ = {
+		F7987B441C6A01CA004F0407 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F71776111C64B30F0062F967 /* Spotify.framework */,
-				F7442E541C6397060040341C /* SystemConfiguration.framework */,
-				F7442E521C6396F70040341C /* AVFoundation.framework */,
+				F7987B451C6A0202004F0407 /* Spotify.framework */,
+				F7987B421C6A01C1004F0407 /* SystemConfiguration.framework */,
+				F7987B401C6A01B6004F0407 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,13 +150,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7442E151C6395390040341C /* Q */ = {
+		F7987B0E1C6A014D004F0407 /* Q */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7442E461C63953A0040341C /* Build configuration list for PBXNativeTarget "Q" */;
+			buildConfigurationList = F7987B371C6A014E004F0407 /* Build configuration list for PBXNativeTarget "Q" */;
 			buildPhases = (
-				F7442E121C6395390040341C /* Sources */,
-				F7442E131C6395390040341C /* Frameworks */,
-				F7442E141C6395390040341C /* Resources */,
+				F7987B0B1C6A014D004F0407 /* Sources */,
+				F7987B0C1C6A014D004F0407 /* Frameworks */,
+				F7987B0D1C6A014D004F0407 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -182,69 +164,69 @@
 			);
 			name = Q;
 			productName = Q;
-			productReference = F7442E161C6395390040341C /* Q.app */;
+			productReference = F7987B0F1C6A014D004F0407 /* Q.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F7442E311C63953A0040341C /* QTests */ = {
+		F7987B221C6A014E004F0407 /* QTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7442E491C63953A0040341C /* Build configuration list for PBXNativeTarget "QTests" */;
+			buildConfigurationList = F7987B3A1C6A014E004F0407 /* Build configuration list for PBXNativeTarget "QTests" */;
 			buildPhases = (
-				F7442E2E1C63953A0040341C /* Sources */,
-				F7442E2F1C63953A0040341C /* Frameworks */,
-				F7442E301C63953A0040341C /* Resources */,
+				F7987B1F1C6A014E004F0407 /* Sources */,
+				F7987B201C6A014E004F0407 /* Frameworks */,
+				F7987B211C6A014E004F0407 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F7442E341C63953A0040341C /* PBXTargetDependency */,
+				F7987B251C6A014E004F0407 /* PBXTargetDependency */,
 			);
 			name = QTests;
 			productName = QTests;
-			productReference = F7442E321C63953A0040341C /* QTests.xctest */;
+			productReference = F7987B231C6A014E004F0407 /* QTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F7442E3C1C63953A0040341C /* QUITests */ = {
+		F7987B2D1C6A014E004F0407 /* QUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7442E4C1C63953A0040341C /* Build configuration list for PBXNativeTarget "QUITests" */;
+			buildConfigurationList = F7987B3D1C6A014E004F0407 /* Build configuration list for PBXNativeTarget "QUITests" */;
 			buildPhases = (
-				F7442E391C63953A0040341C /* Sources */,
-				F7442E3A1C63953A0040341C /* Frameworks */,
-				F7442E3B1C63953A0040341C /* Resources */,
+				F7987B2A1C6A014E004F0407 /* Sources */,
+				F7987B2B1C6A014E004F0407 /* Frameworks */,
+				F7987B2C1C6A014E004F0407 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F7442E3F1C63953A0040341C /* PBXTargetDependency */,
+				F7987B301C6A014E004F0407 /* PBXTargetDependency */,
 			);
 			name = QUITests;
 			productName = QUITests;
-			productReference = F7442E3D1C63953A0040341C /* QUITests.xctest */;
+			productReference = F7987B2E1C6A014E004F0407 /* QUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F7442E0E1C6395390040341C /* Project object */ = {
+		F7987B071C6A014D004F0407 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = JAM;
 				TargetAttributes = {
-					F7442E151C6395390040341C = {
+					F7987B0E1C6A014D004F0407 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = JCR4R796BP;
 					};
-					F7442E311C63953A0040341C = {
+					F7987B221C6A014E004F0407 = {
 						CreatedOnToolsVersion = 7.2;
-						TestTargetID = F7442E151C6395390040341C;
+						TestTargetID = F7987B0E1C6A014D004F0407;
 					};
-					F7442E3C1C63953A0040341C = {
+					F7987B2D1C6A014E004F0407 = {
 						CreatedOnToolsVersion = 7.2;
-						TestTargetID = F7442E151C6395390040341C;
+						TestTargetID = F7987B0E1C6A014D004F0407;
 					};
 				};
 			};
-			buildConfigurationList = F7442E111C6395390040341C /* Build configuration list for PBXProject "Q" */;
+			buildConfigurationList = F7987B0A1C6A014D004F0407 /* Build configuration list for PBXProject "Q" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -252,37 +234,37 @@
 				en,
 				Base,
 			);
-			mainGroup = F7442E0D1C6395390040341C;
-			productRefGroup = F7442E171C6395390040341C /* Products */;
+			mainGroup = F7987B061C6A014D004F0407;
+			productRefGroup = F7987B101C6A014D004F0407 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7442E151C6395390040341C /* Q */,
-				F7442E311C63953A0040341C /* QTests */,
-				F7442E3C1C63953A0040341C /* QUITests */,
+				F7987B0E1C6A014D004F0407 /* Q */,
+				F7987B221C6A014E004F0407 /* QTests */,
+				F7987B2D1C6A014E004F0407 /* QUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F7442E141C6395390040341C /* Resources */ = {
+		F7987B0D1C6A014D004F0407 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7442E2C1C6395390040341C /* LaunchScreen.storyboard in Resources */,
-				F7442E291C6395390040341C /* Assets.xcassets in Resources */,
-				F7442E271C6395390040341C /* Main.storyboard in Resources */,
+				F7987B1D1C6A014D004F0407 /* LaunchScreen.storyboard in Resources */,
+				F7987B1A1C6A014D004F0407 /* Assets.xcassets in Resources */,
+				F7987B181C6A014D004F0407 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7442E301C63953A0040341C /* Resources */ = {
+		F7987B211C6A014E004F0407 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7442E3B1C63953A0040341C /* Resources */ = {
+		F7987B2C1C6A014E004F0407 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,61 +274,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F7442E121C6395390040341C /* Sources */ = {
+		F7987B0B1C6A014D004F0407 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7442E1E1C6395390040341C /* AppDelegate.m in Sources */,
-				F7442E211C6395390040341C /* MasterViewController.m in Sources */,
-				F7442E1B1C6395390040341C /* main.m in Sources */,
-				F7442E241C6395390040341C /* DetailViewController.m in Sources */,
+				F7987B151C6A014D004F0407 /* ViewController.swift in Sources */,
+				F7987B131C6A014D004F0407 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7442E2E1C63953A0040341C /* Sources */ = {
+		F7987B1F1C6A014E004F0407 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7442E371C63953A0040341C /* QTests.m in Sources */,
+				F7987B281C6A014E004F0407 /* QTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7442E391C63953A0040341C /* Sources */ = {
+		F7987B2A1C6A014E004F0407 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7442E421C63953A0040341C /* QUITests.m in Sources */,
+				F7987B331C6A014E004F0407 /* QUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F7442E341C63953A0040341C /* PBXTargetDependency */ = {
+		F7987B251C6A014E004F0407 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F7442E151C6395390040341C /* Q */;
-			targetProxy = F7442E331C63953A0040341C /* PBXContainerItemProxy */;
+			target = F7987B0E1C6A014D004F0407 /* Q */;
+			targetProxy = F7987B241C6A014E004F0407 /* PBXContainerItemProxy */;
 		};
-		F7442E3F1C63953A0040341C /* PBXTargetDependency */ = {
+		F7987B301C6A014E004F0407 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F7442E151C6395390040341C /* Q */;
-			targetProxy = F7442E3E1C63953A0040341C /* PBXContainerItemProxy */;
+			target = F7987B0E1C6A014D004F0407 /* Q */;
+			targetProxy = F7987B2F1C6A014E004F0407 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F7442E251C6395390040341C /* Main.storyboard */ = {
+		F7987B161C6A014D004F0407 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F7442E261C6395390040341C /* Base */,
+				F7987B171C6A014D004F0407 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F7442E2A1C6395390040341C /* LaunchScreen.storyboard */ = {
+		F7987B1B1C6A014D004F0407 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F7442E2B1C6395390040341C /* Base */,
+				F7987B1C1C6A014D004F0407 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -354,7 +334,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F7442E441C63953A0040341C /* Debug */ = {
+		F7987B351C6A014E004F0407 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -394,11 +374,12 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F7442E451C63953A0040341C /* Release */ = {
+		F7987B361C6A014E004F0407 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -436,13 +417,11 @@
 			};
 			name = Release;
 		};
-		F7442E471C63953A0040341C /* Debug */ = {
+		F7987B381C6A014E004F0407 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = NO;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -452,17 +431,16 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = JAM.Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Q/Q-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		F7442E481C63953A0040341C /* Release */ = {
+		F7987B391C6A014E004F0407 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = NO;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -472,11 +450,11 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = JAM.Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Q/Q-Bridging-Header.h";
 			};
 			name = Release;
 		};
-		F7442E4A1C63953A0040341C /* Debug */ = {
+		F7987B3B1C6A014E004F0407 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,7 +466,7 @@
 			};
 			name = Debug;
 		};
-		F7442E4B1C63953A0040341C /* Release */ = {
+		F7987B3C1C6A014E004F0407 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,7 +478,7 @@
 			};
 			name = Release;
 		};
-		F7442E4D1C63953A0040341C /* Debug */ = {
+		F7987B3E1C6A014E004F0407 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = QUITests/Info.plist;
@@ -512,7 +490,7 @@
 			};
 			name = Debug;
 		};
-		F7442E4E1C63953A0040341C /* Release */ = {
+		F7987B3F1C6A014E004F0407 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = QUITests/Info.plist;
@@ -527,43 +505,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7442E111C6395390040341C /* Build configuration list for PBXProject "Q" */ = {
+		F7987B0A1C6A014D004F0407 /* Build configuration list for PBXProject "Q" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7442E441C63953A0040341C /* Debug */,
-				F7442E451C63953A0040341C /* Release */,
+				F7987B351C6A014E004F0407 /* Debug */,
+				F7987B361C6A014E004F0407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7442E461C63953A0040341C /* Build configuration list for PBXNativeTarget "Q" */ = {
+		F7987B371C6A014E004F0407 /* Build configuration list for PBXNativeTarget "Q" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7442E471C63953A0040341C /* Debug */,
-				F7442E481C63953A0040341C /* Release */,
+				F7987B381C6A014E004F0407 /* Debug */,
+				F7987B391C6A014E004F0407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		F7442E491C63953A0040341C /* Build configuration list for PBXNativeTarget "QTests" */ = {
+		F7987B3A1C6A014E004F0407 /* Build configuration list for PBXNativeTarget "QTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7442E4A1C63953A0040341C /* Debug */,
-				F7442E4B1C63953A0040341C /* Release */,
+				F7987B3B1C6A014E004F0407 /* Debug */,
+				F7987B3C1C6A014E004F0407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		F7442E4C1C63953A0040341C /* Build configuration list for PBXNativeTarget "QUITests" */ = {
+		F7987B3D1C6A014E004F0407 /* Build configuration list for PBXNativeTarget "QUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7442E4D1C63953A0040341C /* Debug */,
-				F7442E4E1C63953A0040341C /* Release */,
+				F7987B3E1C6A014E004F0407 /* Debug */,
+				F7987B3F1C6A014E004F0407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F7442E0E1C6395390040341C /* Project object */;
+	rootObject = F7987B071C6A014D004F0407 /* Project object */;
 }

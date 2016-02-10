@@ -4,7 +4,7 @@
 
 ## Build generated
 build/
-DerivedData/
+DerivedData
 
 ## Various settings
 *.pbxuser
@@ -15,16 +15,27 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata/
+xcuserdata
 
 ## Other
-*.moved-aside
 *.xccheckout
+*.moved-aside
+*.xcuserstate
 *.xcscmblueprint
 
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+.build/
 
 # CocoaPods
 #
@@ -43,27 +54,10 @@ Carthage/Build
 
 # fastlane
 #
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the 
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
 # https://github.com/fastlane/fastlane/blob/master/docs/Gitignore.md
 
 fastlane/report.xml
 fastlane/screenshots
-
-# Java
-#
-#
-
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
