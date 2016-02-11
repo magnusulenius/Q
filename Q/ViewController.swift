@@ -18,7 +18,6 @@ class ViewController: UIViewController, SPTAudioStreamingPlaybackDelegate {
     
 
     @IBOutlet weak var artworkImageView: UIImageView!
-    
     @IBOutlet weak var songLength: UILabel!
     @IBOutlet weak var songArtist: UILabel!
     @IBOutlet weak var songName: UILabel!
@@ -75,7 +74,7 @@ class ViewController: UIViewController, SPTAudioStreamingPlaybackDelegate {
             playUsingSession(firstTimeSession)
         }
     }
-    
+/*
     func playUsingSession(sessionObj:SPTSession!){
         if player == nil {
             player = SPTAudioStreamingController(clientId: kClientID)
@@ -103,7 +102,26 @@ class ViewController: UIViewController, SPTAudioStreamingPlaybackDelegate {
             
         })
     }
+  */
     
+    func getSpotifyUser(session: SPTSession) {
+        do {
+            let currentUserRequest = try SPTUser.createRequestForCurrentUserWithAccessToken(session.accessToken)
+            let data: NSData?
+            var error: NSError? = nil
+            do {
+                data = try NSURLConnection.sendSynchronousRequest(currentUserRequest, returningResponse: nil)
+            } catch let error as NSError {
+                print(error)
+                data = nil
+            }
+            guard let unwrappedData = data else { return }
+            let jsonDict = JSON(data: unwrappedData, options: NSJSONReadingOptions(rawValue: 0), error: &error)
+            User.currentUser.currentSpotifyUser = CurrentSpotifyUser(json: jsonDict)
+        } catch let error as NSError {
+            print(error)
+        }
+    }
     
     
 
