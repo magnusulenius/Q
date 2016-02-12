@@ -55,6 +55,7 @@ class ViewController: UIViewController, SPTAudioStreamingPlaybackDelegate {
                 print("session valid")
                 self.session = session
                 playUsingSession(session)
+                userPlaylists()
             }
             
         }else{
@@ -164,8 +165,28 @@ class ViewController: UIViewController, SPTAudioStreamingPlaybackDelegate {
             print("Nothing to play")
         }
     }
-
     
+    // Request users playlists
+    func userPlaylists() {
+        
+        // Request PlaylistList with public playlists from user (constant)
+        
+        // Define user in constant
+        let user = "goooose"
+        
+        SPTPlaylistList.playlistsForUser(user, withSession: session, callback: { (error : NSError!, playListListObj:AnyObject!) -> Void in
+            
+            if error != nil {
+                print("Fetching playlist list got error")
+            }
+            
+            let playListList = playListListObj
+            
+            print(playListList)
+            
+        })
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that kan be recreated
